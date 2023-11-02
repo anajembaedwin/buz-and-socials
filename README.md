@@ -1,2 +1,2 @@
 # buz-and-socials
-Buzz and Socials is a hotel booking, and reservations website built with Django, Wagtail, bootstrap and deployed with Dokku. The code is licensed GPL v3
+Buzz and Socials ventures is a product development company with products for hotel booking, and reservations built with Django, Wagtail, bootstrap and deployed with Dokku, as well as buzpay, a defi-fintech payment app. The code is licensed Buz and Socials Ventures.
