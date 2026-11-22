@@ -102,7 +102,7 @@ h1.h.big1{font-size:60px;line-height:1.05}
 .dots li:before{content:"";position:absolute;left:0;top:10px;width:8px;height:8px;border-radius:50%;background:var(--c)}
 .faq{border-top:1px solid #D6D4CC;flex:1.6}
 .faq details{border-bottom:1px solid #D6D4CC;padding:22px 4px}
-.faq summary{font-size:18px;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary{font-size:18px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary:after{content:"−";width:32px;height:32px;border-radius:50%;border:1px solid #C4C1B8;display:grid;place-items:center;font-size:18px;flex:none;line-height:1}
 .faq details:not([open]) summary:after{content:"+"}
@@ -153,6 +153,15 @@ h1.h.big1{font-size:60px;line-height:1.05}
 .quote{margin:0;padding:28px}.quote .qm{font-size:54px;line-height:.7;color:#C4C1B8}
 .quote blockquote{margin:14px 0 0;font-size:17px;line-height:1.65;color:#3A3935}.quote figcaption{margin-top:22px;font-size:13px;font-weight:600;color:#6B6963}
 .sec[hidden]{display:none}
+.work.ph .wimg{height:190px;background:#EDE9E1;display:flex;align-items:center;justify-content:center;color:#6B6963;font-size:13px;font-weight:600}
+.sk{display:block;height:10px;border-radius:5px;background:#F1EFEA}
+.sk.q{height:11px;border-radius:6px;background:#E2DED3;margin-top:10px}
+.quote.ph .qm+.sk{margin-top:14px}
+.quote figcaption{display:flex;align-items:center;gap:10px}.quote .av{width:34px;height:34px;border-radius:50%;background:#EDE9E1;flex:none}
+.pi{width:200px;flex:none;display:flex;flex-direction:column;align-items:center;gap:10px;height:70px;justify-content:center}
+.pr{display:flex;align-items:center;gap:8px}.pc{width:26px;height:26px;border-radius:50%;background:#CDD3DB}.pb{display:block;height:12px;border-radius:6px;background:#CDD3DB}
+.pl{font-size:11px;font-weight:600;color:#9AA3B0;letter-spacing:.06em}
+.pi img{height:48px;width:auto}
 /* partners */
 .partners{padding-bottom:76px}
 .slidebox{overflow:hidden;margin-top:30px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
@@ -214,3 +223,4 @@ h1.h.big1{font-size:44px}
 .fgrid{grid-template-columns:1fr;gap:30px;padding-top:40px;padding-bottom:32px}
 .fbase{flex-direction:column;gap:2px}
 }
+.work .sm{display:flex;align-items:center;gap:8px}
