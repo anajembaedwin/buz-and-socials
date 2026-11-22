@@ -224,3 +224,10 @@ h1.h.big1{font-size:44px}
 .fbase{flex-direction:column;gap:2px}
 }
 .work .sm{display:flex;align-items:center;gap:8px}
+
+.pi{width:auto;padding:0 44px;height:64px}
+.pi img{height:44px;width:auto;display:block}
+.pi img[src*=bolton]{height:40px}
+.pi img[src*=johnwood]{height:56px}
+.pi img[src*=transcorp]{height:24px}
+.pi img[src*=capital]{height:52px}

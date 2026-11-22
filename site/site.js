@@ -11,7 +11,7 @@
   }
   // sliding partner strip: duplicate logos so the loop is seamless
   var s = document.querySelector('.slide');
-  if (s && s.children.length) { s.innerHTML += s.innerHTML; }
+  if (s && s.children.length && window.matchMedia('(min-width:861px)').matches) { var base = s.innerHTML, n = 0; while (s.scrollWidth < window.innerWidth * 1.1 && n++ < 8) { s.innerHTML += base; } s.innerHTML += s.innerHTML; }
   // forms: open WhatsApp with the message ready (no server needed)
   document.querySelectorAll('form.form').forEach(function (f) {
     f.addEventListener('submit', function (e) {
