@@ -232,5 +232,10 @@ h1.h.big1{font-size:44px}
 .pi img[src*=girllead]{height:46px}
 .pi img[src*=eyemark]{height:30px}
 .pi img[src*=netzence]{height:54px}
+.pi img[src*=omed]{height:50px}
+.pi .wm{white-space:nowrap;color:#2B2B2B}
+.pi .wm-pali{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:26px;letter-spacing:-.02em;color:#6A452B}
+.pi .wm-max{font-family:'Manrope',system-ui,sans-serif;font-weight:500;font-size:15px;letter-spacing:.01em}
+.pi .wm-max b{font-weight:800;font-size:20px;letter-spacing:-.02em;color:#2F5D62}
 .pi img[src*=transcorp]{height:24px}
 .pi img[src*=capital]{height:52px}
