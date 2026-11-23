@@ -251,9 +251,9 @@ h1.h.big1{font-size:44px}
 .orbit .r2{left:16.5%;top:16.5%;width:67%;height:67%;border:1px solid rgba(244,242,236,.18)}
 .orbit .op{position:absolute;left:20.8%;top:20.8%;width:58.4%;height:58.4%;border-radius:50%;overflow:hidden;border:5px solid #C9B27A;box-sizing:border-box;box-shadow:0 0 0 10px rgba(244,242,236,.08),0 16px 40px rgba(0,0,0,.45)}
 .orbit .op img{width:100%;height:100%;object-fit:cover;display:block}
-.orbit .oc{position:absolute;width:18.5%;height:10.2%;background:#fff;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center}
+.orbit .oc{position:absolute;width:24%;height:15%;background:#fff;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center}
 .orbit .oc.dk{background:#2B2B2B;border:1px solid rgba(255,255,255,.22)}
-.orbit .oc img{max-width:86%;max-height:74%;object-fit:contain;display:block}
+.orbit .oc img{max-width:88%;max-height:80%;object-fit:contain;display:block}
 .ftx{flex:1}
 .ftx .eyebrow{color:#C9B27A}
 .ftx .h{color:#F4F2EC;margin:8px 0 0}
